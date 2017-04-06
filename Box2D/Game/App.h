@@ -1,4 +1,4 @@
-//DirectX Framework - Simon Scarle
+//DirectX Framework - 
 
 #ifndef _APP_H_
 #define _APP_H_

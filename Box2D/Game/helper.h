@@ -1,4 +1,4 @@
-//DirectX Framework - Simon Scarle
+//DirectX Framework - 
 
 #ifndef _HELPER_H_
 #define _HELPER_H_

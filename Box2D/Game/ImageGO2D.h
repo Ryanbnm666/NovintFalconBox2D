@@ -1,4 +1,4 @@
-//DirectX Framework - Simon Scarle
+//DirectX Framework - 
 
 #ifndef _IMAGE_GO_2D_H_
 #define _IMAGE_GO_2D_H_

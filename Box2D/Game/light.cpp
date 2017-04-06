@@ -1,4 +1,4 @@
-//DirectX Framework - Simon Scarle
+//DirectX Framework - 
 
 #include "light.h"
 #include "gamedata.h"

@@ -1,4 +1,4 @@
-//DirectX Framework - Simon Scarle
+//DirectX Framework - 
 
 //constant buffer for the shader
 #ifndef _CONSTBUFFER_H_

@@ -1,4 +1,4 @@
-//DirectX Framework - Simon Scarle
+//DirectX Framework - 
 
 #ifndef _DRAW_DATA_2D_H_
 #define _DRAW_DATA_2D_H_

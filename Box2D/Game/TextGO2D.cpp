@@ -1,4 +1,4 @@
-//DirectX Framework - Simon Scarle
+//DirectX Framework - 
 
 #include "TextGO2D.h"
 #include "DrawData2D.h"

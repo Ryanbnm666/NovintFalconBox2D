@@ -1,4 +1,4 @@
-//DirectX Framework - Simon Scarle
+//DirectX Framework - 
 
 #ifndef _LIGHT_H_
 #define _LIGHT_H_

@@ -1,4 +1,4 @@
-//DirectX Framework - Simon Scarle
+//DirectX Framework - 
 
 #include "GameObject2D.h"
 #include "gamedata.h"

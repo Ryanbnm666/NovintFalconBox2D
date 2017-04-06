@@ -1,4 +1,4 @@
-//DirectX Framework - Simon Scarle
+//DirectX Framework - 
 
 #ifndef _DRAW_STATE_H_
 #define _DRAW_STATE_H_

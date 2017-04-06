@@ -1,4 +1,4 @@
-//DirectX Framework - Simon Scarle
+//DirectX Framework - 
 //Modified by Ryan Johnson 2017
 
 #include "game.h"

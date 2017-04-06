@@ -1,4 +1,4 @@
-//DirectX Framework - Simon Scarle
+//DirectX Framework - 
 
 #ifndef _GAME_STATE_H_
 #define _GAME_STATE_H_

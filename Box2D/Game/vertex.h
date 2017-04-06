@@ -1,4 +1,4 @@
-//DirectX Framework - Simon Scarle
+//DirectX Framework - 
 
 //Vertex Structure
 #ifndef _VERTEX_H_
