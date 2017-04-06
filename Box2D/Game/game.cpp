@@ -397,13 +397,7 @@ bool Game::ReadInput()
 void Game::initHaptics()
 {
 	// Start Haptics
-	m_Haptics.init(5.0f, 500.0f);
-
-	// Some time is required between gHaptics.init() and checking status,
-	// for the device to initialize and stabilize.  In a complex
-	// application, this time can be consumed in the scene setup
-	// function.  Here, it is simulated with Sleep().
-	Sleep(100);
+	m_Haptics.init();
 
 	m_hapticNotHomed = !m_Haptics.isDeviceCalibrated();
 

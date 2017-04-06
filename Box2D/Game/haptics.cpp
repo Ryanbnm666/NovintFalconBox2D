@@ -51,11 +51,8 @@ HDLServoOpExitCode GetStateCB(void* pUserData)
 
 // Constructor--just make sure needed variables are initialized.
 HapticsClass::HapticsClass()
-    : m_lastFace(FACE_NONE),
-      m_deviceHandle(HDL_INVALID_HANDLE),
+    : m_deviceHandle(HDL_INVALID_HANDLE),
       m_servoOp(HDL_INVALID_HANDLE),
-      m_cubeEdgeLength(1),
-      m_cubeStiffness(1),
       m_inited(false)
 {
 	direction = false;
@@ -72,10 +69,8 @@ HapticsClass::~HapticsClass()
 
 
 
-void HapticsClass::init(double a_cubeSize, double a_stiffness)
+void HapticsClass::init()
 {
-    m_cubeEdgeLength = a_cubeSize;
-    m_cubeStiffness = a_stiffness;
 
 
     HDLError err = HDL_NO_ERROR;

@@ -10,15 +10,6 @@
 #include <hdl/hdl.h>
 #include <hdlu/hdlu.h>
 
-// Know which face is in contact
-enum RS_Face {
-    FACE_NONE = -1,
-    FACE_NEAR, FACE_RIGHT, 
-    FACE_FAR, FACE_LEFT, 
-    FACE_TOP, FACE_BOTTOM,
-    FACE_DEFAULT,
-    FACE_LAST               // reserved to allow iteration over faces
-    };
 
 // Blocking values
 const bool bNonBlocking = false;
@@ -39,7 +30,7 @@ public:
     ~HapticsClass();
 
     // Initialize
-    void init(double a_cubeSize, double a_stiffness);
+    void init();
 
     // Clean up
     void uninit();
@@ -99,12 +90,6 @@ private:
 
     // Device workspace dimensions
     double m_workspaceDims[6];
-
-    // Size of cube
-    double m_cubeEdgeLength;
-
-    // Stiffness of cube
-    double m_cubeStiffness;
 
 	bool direction;
 };
