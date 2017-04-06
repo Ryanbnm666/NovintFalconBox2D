@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CMOGO.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject2D.cpp">
+      <Filter>Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageGO2D.cpp">
+      <Filter>Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TextGO2D.cpp">
+      <Filter>Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBodyManager.cpp">
+      <Filter>Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ContactListener.cpp">
+      <Filter>Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="haptics.cpp">
+      <Filter>Base\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cursor.cpp">
+      <Filter>Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>Objects\2D\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>Objects\2D\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h" />
+    <ClInclude Include="camera.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CMOGO.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectList.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="drawdata.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject2D.h">
+      <Filter>Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawData2D.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageGO2D.h">
+      <Filter>Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextGO2D.h">
+      <Filter>Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Objects\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBodyManager.h">
+      <Filter>Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactListener.h">
+      <Filter>Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="haptics.h">
+      <Filter>Base\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cursor.h">
+      <Filter>Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Objects\2D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>Objects\2D\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{29a0f772-9ca2-4280-857b-3fdafe3cb77b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Source">
+      <UniqueIdentifier>{b9aaacf6-d449-4c3e-9b11-41b1fdd92ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{51391e65-28b7-4d29-b8ee-5f7fda07e5a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Headers">
+      <UniqueIdentifier>{f76ffc03-eb4d-42ad-aebf-a871c73c5f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Headers">
+      <UniqueIdentifier>{8a7c4bdf-0b7b-4c96-a308-5835342f68d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Source">
+      <UniqueIdentifier>{29db503a-53ff-44dc-8607-370aee4f4cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\2D">
+      <UniqueIdentifier>{5f056e3d-2747-4005-aaeb-583d8d9292c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\2D\Headers">
+      <UniqueIdentifier>{a1575cc9-2fa1-4ad3-ae90-c094b857b090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\2D\Source">
+      <UniqueIdentifier>{588be166-e302-4071-bc83-95e22642c942}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

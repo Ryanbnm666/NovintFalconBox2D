@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Models">
+      <UniqueIdentifier>{c30852cb-5bae-4314-9cfd-444f8d5b7b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File VBGOs">
+      <UniqueIdentifier>{efbd3b22-dc07-4b8b-86eb-09dc8c46b7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{0c01afb0-8a36-4aad-bf34-0bf53ac174f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{bf1a90b0-583e-432a-b6d3-acf4d3f3acab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures\Buttons">
+      <UniqueIdentifier>{f22f5782-fa8f-433d-b84b-b1b137feabd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures\Boxes">
+      <UniqueIdentifier>{1021b055-045c-4eb0-8fe8-66b5209e683f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures\Cursors">
+      <UniqueIdentifier>{b7b5a537-3d80-4d0d-8126-00039296c9ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="bg-blur.png">
+      <Filter>Textures</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="btnGrab.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="btnGrab_pressed.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="btnLink.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="btnLink_pressed.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="btnPlace.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="btnPlace_pressed.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="btnLarge.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="btnLarge_pressed.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="btnMedium.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="btnMedium_pressed.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="btnSmall.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="btnSmall_pressed.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="water.png">
+      <Filter>Textures</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="btnWater_pressed.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="btnWater.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="cursor.png">
+      <Filter>Textures\Cursors</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="grabopen.png">
+      <Filter>Textures\Cursors</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="grab.png">
+      <Filter>Textures\Cursors</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="cross.png">
+      <Filter>Textures\Cursors</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="2x2_fade.png">
+      <Filter>Textures\Cursors</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="1x1_fade.png">
+      <Filter>Textures\Cursors</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="4x4_fade.png">
+      <Filter>Textures\Cursors</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="button.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="button_pressed.png">
+      <Filter>Textures\Buttons</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="1x1.png">
+      <Filter>Textures\Boxes</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="2x2.png">
+      <Filter>Textures\Boxes</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="4x4.png">
+      <Filter>Textures\Boxes</Filter>
+    </ImageContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.fx">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
